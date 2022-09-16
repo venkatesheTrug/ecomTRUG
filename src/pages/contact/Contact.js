@@ -16,9 +16,9 @@ const Contact = () => {
     emailjs
       .sendForm(
         process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        "template_7xyhwen",
+        "template_sdcs6lr",
         form.current,
-        "user_hKs2aRfLoozcqA28UpUyz"
+        "lLpYXFn0nzHpITq65"
       )
       .then(
         (result) => {
@@ -72,19 +72,15 @@ const Contact = () => {
               <div className={styles.icons}>
                 <span>
                   <FaPhoneAlt />
-                  <p>+234 705 141 6545</p>
+                  <p>+91 9502930797</p>
                 </span>
                 <span>
                   <FaEnvelope />
-                  <p>Support@eshop.com</p>
+                  <p>Support@etrug.com</p>
                 </span>
                 <span>
                   <GoLocation />
-                  <p>Abuja, Nigeria</p>
-                </span>
-                <span>
-                  <FaTwitter />
-                  <p>@ZinoTrust</p>
+                  <p>Kakinada</p>
                 </span>
               </div>
             </Card>

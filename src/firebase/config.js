@@ -4,13 +4,22 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
+// export const firebaseConfig = {
+//   apiKey: process.env.REACT_APP_FB_API_KEY,
+//   authDomain: "eshop-ea8e7.firebaseapp.com",
+//   projectId: "eshop-ea8e7",
+//   storageBucket: "eshop-ea8e7.appspot.com",
+//   messagingSenderId: "146569443233",
+//   appId: "1:146569443233:web:46db000fc2c897f3b73de0",
+// };
+
 export const firebaseConfig = {
   apiKey: process.env.REACT_APP_FB_API_KEY,
-  authDomain: "eshop-ea8e7.firebaseapp.com",
-  projectId: "eshop-ea8e7",
-  storageBucket: "eshop-ea8e7.appspot.com",
-  messagingSenderId: "146569443233",
-  appId: "1:146569443233:web:46db000fc2c897f3b73de0",
+  authDomain: "etrug-test.firebaseapp.com",
+  projectId: "etrug-test",
+  storageBucket: "etrug-test.appspot.com",
+  messagingSenderId: "495630019158",
+  appId: "1:495630019158:web:bc9decad0e914946e529f7",
 };
 
 // Initialize Firebase

@@ -16,7 +16,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.get("/", (req, res) => {
-  res.send("Welcome to eShop website.");
+  res.send("Welcome to eTRUG website.");
 });
 
 const array = [];
@@ -39,7 +39,7 @@ app.post("/create-payment-intent", async (req, res) => {
   // Create a PaymentIntent with the order amount and currency..
   const paymentIntent = await stripe.paymentIntents.create({
     amount: calculateOrderAmount(items),
-    currency: "usd",
+    currency: "inr",
     automatic_payment_methods: {
       enabled: true,
     },
