@@ -15,8 +15,8 @@ import { getStorage } from "firebase/storage";
 
 export const firebaseConfig = {
   apiKey: process.env.REACT_APP_FB_API_KEY,
-  // authDomain: "etrug-test.firebaseapp.com",--
-  authDomain: "etrug-test-app.herokuapp.com",
+  authDomain: "etrug-test.firebaseapp.com",
+  // authDomain: "etrug-test-app.herokuapp.com",
   projectId: "etrug-test",
   storageBucket: "etrug-test.appspot.com",
   messagingSenderId: "495630019158",
